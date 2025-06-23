@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contacto</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/miestilo.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/cd9beaf99a.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+      <section id="menu" class="sombra">
+            <nav class="navbar fondo_marron_oscuro">
+              <div class="container">
+                <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+                  <img src="img/caelilogo.png" alt="logo" style="height: 40px;">
+                  <h1 class="dancingscript color_blanco subrayado">Caeliventu</h1>
+                </a>
+                <ul class="nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"><button type="button" class="btn btn-light animate__animated animate__fadeInDown" style="animation-delay: 0.1s;" >Inicio</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="eventos.html"><button type="button" class="btn btn-light animate__animated animate__fadeInDown" style="animation-delay: 0.3s;">Eventos</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="servicios.html"><button type="button" class="btn btn-light animate__animated animate__fadeInDown" style="animation-delay: 0.5s;">Servicios</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html"><button type="button" class="btn btn-light animate__animated animate__fadeInDown" style="animation-delay: 0.7s;">Galería</button></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html"><button type="button" class="btn btn-light color_blanco fondo_marron_oscuro animate__animated animate__fadeInDown" style="animation-delay: 0.9s;">Contacto</button></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+      </section>
+    </header>
+
+    <main>
+      <section class="container d-flex justify-content-center align-items-center flex-column">
+        <div class="separacion" id="imagen">
+          <div class="texto_centrado">
+            <h1 class="signika" style="padding: 40px 0px;">Contáctanos</h1>
+            <p class="signika">
+              Si tienes alguna pregunta, comentario o solicitud especial, no dudes en ponerte en contacto con nosotros. 
+              Estamos aquí para ayudarte a hacer realidad tus sueños y crear eventos inolvidables. 
+              Completa el formulario a continuación y nos pondremos en contacto contigo lo antes posible.
+            </p>
+            <div class="datos-contacto">
+              <p class="signika">caeliventu@gmail.com</p>
+              <p class="signika">+504 1234-5678</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section1">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-6">
+        <div class="d-flex flex-column align-items-center">
+
+          <div class="lista w-100 mb-3">
+            <label for="nombre" class="form-label">Nombre*</label>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa fa-user"></i>
+              <input type="text" class="form-control registro" id="nombre" required>
+            </div>
+          </div>
+
+          <div class="lista w-100 mb-3">
+            <label for="correo" class="form-label">Correo Electrónico*</label>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa fa-envelope"></i>
+              <input type="email" class="form-control registro" id="correo" required>
+            </div>
+          </div>
+
+          <div class="lista w-100 mb-3">
+            <label for="asunto" class="form-label">Asunto*</label>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa fa-tag"></i>
+              <input type="text" class="form-control registro" id="asunto" required>
+            </div>
+          </div>
+
+          <div class="lista w-100 mb-3">
+            <label for="mensaje" class="form-label">Mensaje*</label>
+            <div class="d-flex align-items-start gap-2">
+              <i class="fa fa-comment"></i>
+              <textarea class="form-control registro" id="mensaje" rows="4" required></textarea>
+            </div>
+          </div>
+
+          <div class="lista w-100 mb-3">
+            <label for="telefono" class="form-label">Teléfono*</label>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa fa-phone"></i>
+              <input type="tel" class="form-control registro" id="telefono" required>
+            </div>
+          </div>
+
+          <div class="lista w-100 mb-3">
+            <label for="fecha" class="form-label">Fecha tentativa para tu evento*</label>
+            <div class="d-flex align-items-center gap-2">
+              <i class="fa fa-calendar"></i>
+              <input type="date" class="form-control registro" id="fecha" required>
+            </div>
+          </div>
+
+          <div class="text-center mt-4">
+            <button type="submit" class="btn btn-dark px-5">ENVIAR</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<br>
+<br>
+
+      <section class="mapa seccion_mapa d-flex justify-content-center align-items-center flex-column">
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4656.685944097143!2d-87.17670478859435!3d14.048086886318615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbcfacdb96c17%3A0x94999a679eabaa4f!2sUniversidad%20Tecnol%C3%B3gica%20Centroamericana!5e1!3m2!1ses!2shn!4v1750117391243!5m2!1ses!2shn" width="900" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </section>
+
+      <section class="visit seccion_v d-flex justify-content-center align-items-center flex-column">
+        <h2 class="signika">Visítanos</h2>
+        <p class="signika">Ubicación de nuestras instalaciones donde se realizan eventos.</p>
+
+        <div class="social">
+          <a href="#"><i class="fab fa-facebook-f icon"></i></a>
+          <a href="#"><i class="fab fa-x-twitter icon"></i></a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer fondo_marron_oscuro color_blanco d-flex justify-content-between px-4 py-3">
+      <span>Diseño Web - Grupo 1 - 2025</span>
+      <span class="right">Avance 1</span>
+    </footer>
+
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
